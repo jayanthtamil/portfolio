@@ -1,0 +1,210 @@
+.home-page .contact-section {
+  .section-title {
+    text-align: center;
+    margin: 3rem 0 2rem 0;
+    font-size: 30px;
+    font-weight: normal;
+  }
+
+  .contact-section-wrapper {
+    .info-box {
+      background: var(--box-bg);
+      box-shadow: var(--box-shadow);
+      padding: 1rem;
+      border-radius: 6px;
+      max-width: 600px;
+      margin: 0 auto;
+
+      .image {
+        img {
+          width: 100%;
+          height: 220px;
+          object-fit: cover;
+          border-radius: 10px;
+        }
+      }
+
+      .content {
+        margin-top: 1.5rem;
+
+        .name {
+          font-size: 30px;
+        }
+
+        .text {
+          margin-top: 1rem;
+          line-height: 1.5;
+          font-size: 17px;
+          max-width: 450px;
+        }
+
+        .email {
+          margin-top: 1rem;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+
+          span {
+            font-size: 105%;
+            font-weight: bold;
+          }
+        }
+
+        .find-me {
+          margin-top: 1.4rem;
+
+          .title {
+            margin-bottom: 10px;
+            font-size: 20px;
+          }
+
+          .box-container {
+            width: 50px;
+            height: 50px;
+            border-radius: 6px;
+            background: var(--box-bg);
+            box-shadow: var(--box-shadow);
+            margin-right: 1rem;
+            margin-top: 5px;
+            cursor: pointer;
+            transition: transform 300ms ease-in;
+
+            .icon {
+              font-size: 1.7rem;
+            }
+
+            &:hover {
+              transform: translateY(-2px);
+            }
+          }
+        }
+      }
+    }
+
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+      margin-top: 3rem;
+      background: var(--box-bg);
+      box-shadow: var(--box-shadow);
+      padding: 2rem 1rem;
+      border-radius: 6px;
+
+      form {
+        label,
+        input,
+        textarea {
+          display: block;
+        }
+
+        .input-field,
+        .textarea-field {
+          margin-bottom: 1.2rem;
+        }
+
+        input,
+        textarea {
+          width: 100%;
+          height: 45px;
+          border-radius: 4px;
+          outline: none;
+          padding-left: 10px;
+          font-size: 15px;
+          border: 1px solid #808080;
+          margin-bottom: 7px;
+        }
+
+        textarea {
+          padding: 10px;
+          resize: vertical;
+          font-size: 17px;
+          max-height: 200px;
+        }
+
+        #subject {
+          min-height: 100px;
+          resize: none;
+        }
+
+        #message {
+          max-height: 200px;
+          min-height: 100px;
+        }
+
+        label {
+          font-size: 18px;
+          margin-bottom: 10px;
+        }
+
+        .submit-form {
+          margin-top: 20px;
+          width: 100%;
+          height: 45px;
+          font-size: 20px;
+          color: #fff;
+          background-color: var(--primary-color);
+          border-radius: 6px;
+          outline: none;
+          border: none;
+          cursor: pointer;
+          gap: 10px;
+          transition: all 300ms ease-in-out;
+
+          &:hover {
+            gap: 15px;
+          }
+
+          .loading-spinner-icons {
+            font-size: 1.3rem;
+            animation: load-animate 1s linear infinite;
+            color: white;
+            margin-right: 1rem;
+          }
+
+          @keyframes load-animate {
+            0% {
+              transform: rotate(0deg);
+            }
+            50% {
+              transform: rotate(180deg);
+              opacity: 0.6;
+            }
+            100% {
+              transform: rotate(360deg);
+            }
+          }
+        }
+
+        .message-response {
+          margin: 10px 0;
+          background-color: #8ae382;
+          border-radius: 6px;
+          padding: 10px 15px;
+          box-shadow: var(--box-shadow);
+
+          .text {
+            color: #255301;
+            font-size: 15px;
+            line-height: 1.5;
+          }
+        }
+      }
+    }
+
+    @media screen and (min-width: 868px) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+
+      .info-box {
+        flex-basis: 40%;
+      }
+
+      .contact-form {
+        flex-basis: 60%;
+        margin-top: unset;
+      }
+    }
+  }
+}

@@ -1,0 +1,126 @@
+.home-page .features {
+  .features-wrapper {
+    margin: 4rem 0;
+
+    .title-heading {
+      text-align: center;
+
+      .title {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: var(--primary-color);
+      }
+
+      .heading {
+        margin-top: 1rem;
+        font-size: 33px;
+        text-transform: uppercase;
+        font-weight: normal;
+      }
+    }
+
+    .box-wrapper {
+      margin-top: 2rem;
+
+      .box {
+        text-align: center;
+        background: var(--box-bg);
+        box-shadow: var(--box-shadow);
+        width: auto;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        cursor: default;
+        padding: 0 1rem;
+        transition: background 500ms ease-in-out;
+        border-radius: 6px;
+        max-width: 550px;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        transition: all 500ms ease-in-out;
+
+        .content {
+          margin: 0 auto;
+
+          .icon {
+            font-size: 2.7rem;
+            height: auto;
+            color: var(--primary-color);
+          }
+
+          .shopify {
+            width: 50px;
+            height: auto;
+            margin: 0 auto;
+
+            svg {
+              fill: var(--primary-color);
+            }
+          }
+
+          .box-title {
+            margin: 10px 0;
+            font-size: 21px;
+            white-space: nowrap;
+          }
+
+          .text {
+            line-height: 1.7;
+            max-width: 400px;
+          }
+        }
+
+        &:hover {
+          background: var(--primary-color);
+
+          .content {
+            .box-title,
+            .text,
+            .icon {
+              color: #fff;
+            }
+
+            .shopify {
+              svg {
+                fill: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 868px) {
+    .box-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2.5rem;
+
+      .box-row-1 {
+        display: flex;
+        gap: 2.5rem;
+        width: 100%;
+        margin-top: 1rem;
+      }
+
+      .box {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+
+        .content {
+          padding: 0 1rem;
+        }
+      }
+    }
+  }
+
+  //   @media screen and (min-width: 1420px) {
+  //     .box {
+  //       min-width: 400px !important;
+  //     }
+  //   }
+}
