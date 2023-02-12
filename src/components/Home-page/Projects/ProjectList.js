@@ -78,7 +78,7 @@ export const ProjectList = [
     ],
   },
   {
-    title: "Nework Courier",
+    title: "Network Courier",
     description:
       "Furneek Ecommerce store build with most vibrant feature of WordPress. This store uses premium themes and plugin to improve the design and productivity",
     image: FurneekMockup,

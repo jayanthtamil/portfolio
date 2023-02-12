@@ -29,7 +29,7 @@ const HeroSection = () => {
             interactive, user-friendly, and feature-rich websites
           </p>
           <div className='best-skills'>
-            <h4>Best Skill On</h4>
+            <h4>Best Skills On</h4>
             <div className='skill-sets flex flex-ai-c'>
             <div className='box-container'>
                 <div className='box'>
