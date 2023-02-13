@@ -2,32 +2,25 @@ import EcommerceMockup from "../../../assets/ecommerce_store_mockup.png";
 import InstaCloneMockup from "../../../assets/insta_clone_mockup.png";
 import FurneekMockup from "../../../assets/furneek_mockup.png";
 import ReactIcon from "../../../assets/icons/react.jsx";
-import NodeJsIcon from "../../../assets/icons/nodejs.jsx";
 import SassIcon from "../../../assets/icons/sass.jsx";
-import MongodbIcon from "../../../assets/icons/mongodb.jsx";
 import JavascriptIcon from "../../../assets/icons/javascript.jsx";
 import FigmaIcon from "../../../assets/icons/figma.jsx";
-import ExpressIcon from "../../../assets/icons/express.jsx";
-import VueJs from "../../../assets/vue.png"
-import HTML from "../../../assets/html.png"
-import CSS from "../../../assets/css.png"
-import TYPESCRIPT from "../../../assets/typescript.png"
-import REDUX from "../../../assets/redux.png"
+import VueJs from "../../../assets/vue.png";
+import HTML from "../../../assets/html.png";
+import CSS from "../../../assets/css.png";
+import TYPESCRIPT from "../../../assets/typescript.png";
+import REDUX from "../../../assets/redux.png";
 
 const ReactJs = <ReactIcon />;
-const NodeJs = <NodeJsIcon />;
 const Sass = <SassIcon />;
 const Js = <JavascriptIcon />;
 const Figma = <FigmaIcon />;
-const MongoDb = <MongodbIcon />;
-const Express = <ExpressIcon />;
-
 
 export const ProjectList = [
   {
     title: "City Quest",
     description:
-      "Fully functional E-commerce store with admin dashboard.   This store has a functionality of receiving orders, updating products, Poduct recommendation and also secured authentication",
+      "City Quest is information providing site about every city. For example: we can able to see what are all the events happening in the city, Where are all the bus-stand in the city where it is located etc..",
     image: EcommerceMockup,
     link: "https://cityquest.in/",
     techStack: [
@@ -35,7 +28,7 @@ export const ProjectList = [
         name: "ReactJs",
         icon: ReactJs,
       },
-     
+
       {
         name: "Figma",
         icon: Figma,
@@ -48,13 +41,12 @@ export const ProjectList = [
         name: "CSS",
         icon: CSS,
       },
-     
     ],
   },
   {
     title: "Butter Insurance",
     description:
-      "As same as Instagram, This clone contains the feature of Post feed, Reels, Stories, User-page, User-intreaction and also Responsive with all device ",
+      "Butter Insurance is a Electronic based.In Austrlia  used to apply insurance for products buyed through online or the products already buyed through online.",
     image: InstaCloneMockup,
     link: "https://www.butterinsurance.com.au/",
     techStack: [
@@ -62,7 +54,7 @@ export const ProjectList = [
         name: "ReactJs",
         icon: ReactJs,
       },
-     
+
       {
         name: "Sass",
         icon: Sass,
@@ -80,7 +72,7 @@ export const ProjectList = [
   {
     title: "Network Courier",
     description:
-      "Furneek Ecommerce store build with most vibrant feature of WordPress. This store uses premium themes and plugin to improve the design and productivity",
+      "Network Courier is a Singapore leading courier service provider by focusing on the vision of being a leading courier service provider with a global network.",
     image: FurneekMockup,
     link: "http://206.189.136.211/#/",
     techStack: [
@@ -96,10 +88,6 @@ export const ProjectList = [
         name: "VueJs",
         icon: VueJs,
       },
-      // {
-      //   name: "NodeJs",
-      //   icon: NodeJs,
-      // },
       {
         name: "HTML",
         icon: HTML,
@@ -113,7 +101,7 @@ export const ProjectList = [
   {
     title: "Requirement Portal",
     description:
-      "As same as Instagram, This clone contains the feature of Post feed, Reels, Stories, User-page, User-intreaction and also Responsive with all device ",
+      "Requirement Portal is a dynamic Form creation for requirement , admission , data getting from employme , students etc..  ",
     image: InstaCloneMockup,
     link: "https://staging.d378h3h0rh8svb.amplifyapp.com",
     techStack: [
@@ -133,10 +121,6 @@ export const ProjectList = [
         name: "CSS",
         icon: CSS,
       },
-      // {
-      //   name: "NodeJs",
-      //   icon: NodeJs,
-      // },
       {
         name: "Sass",
         icon: Sass,
@@ -145,15 +129,6 @@ export const ProjectList = [
         name: "REDUX",
         icon: REDUX,
       },
-      // {
-      //   name: "ExpressJs",
-      //   icon: Express,
-      // },
-      // {
-      //   name: "MongoDb",
-      //   icon: MongoDb,
-      // },
-      
     ],
   },
 ];

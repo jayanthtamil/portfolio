@@ -83,7 +83,7 @@ const Contact = () => {
                 </div>
                 <div className='box-container flex flex flex-jc-c flex-ai-c'>
                   <div className='icon flex flex-ai-c'>
-                  <a href="https://github.com/jayanthtamil" target="_blank"> 
+                  <a href="https://github.com/jayanthtamil/portfolio" target="_blank"> 
                     <FaGithub />
                     </a>
                   </div>
